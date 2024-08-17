@@ -22,7 +22,6 @@
     "is-number": "^7.0.0",
     "minimatch": "^3.1.2",
     "ms": "^2.1.2",
-    "nodemon": "^3.1.4",
     "normalize-path": "^3.0.0",
     "picomatch": "^2.3.1",
     "pstree.remy": "^1.1.8",
@@ -34,11 +33,14 @@
     "touch": "^3.1.1",
     "undefsafe": "^2.0.5"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start" : "nodemon app.js",
+    "dev" : "nodemon app.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
